@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Currículum y portafolio AGH</title>
-    <link rel="stylesheet" href="./assets/css/img/style.css" />
-
+    
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./assets/css/img/style.css"/>
+
   </head>
 
   <body>
@@ -74,21 +75,18 @@
 
     <!--Imagen y nombre-->
     <div class="img_nom col-12 ps-5">
+      <div class="imagen-prin m-5 d-flex p-5">
+        <img src="assets/img/foto_curriculum.jpeg" alt="mi foto" />
 
-    
-
-    <div class="imagen-prin m-5 d-flex p-5">
-      <img src="assets/img/foto_curriculum.jpeg" alt="mi foto" />
-
-      <div class="nombre">
-        <h2 class="display-2 fw-bold text-center text-dark m-3 p-5">
-          Augusto Gozalvo Hidalgo
-        </h2>
-        <h2 class="display-5 fw-bold text-center text-dark m-3 p-2">
-          <p>Desarrollador</p>
-        </h2>
+        <div class="nombre">
+          <h2 class="display-2 fw-bold text-center text-dark m-3 p-5">
+            Augusto Gozalvo Hidalgo
+          </h2>
+          <h2 class="display-5 fw-bold text-center text-dark m-3 p-2">
+            <p>Desarrollador</p>
+          </h2>
+        </div>
       </div>
-    </div>
     </div>
 
     <hr />
@@ -140,20 +138,18 @@
 
     <!--Experiencia laboral-->
 
-    <section id="Mis-trabajos" class="my-5 p-5 bg-primary">
+    <section id="Mis-trabajos" class="my-5 p-5 bg-info">
       <h2 class="display-4 fw-bold text-center text-light mb-3">
-        Experiencia Laboral
+        Mis trabajos
       </h2>
 
       <div class="row">
         <div class="col-12 col-sm-4 py-2">
           <div class="card">
             <div
-              
-              >
               class="image-top"
               style="background-image: url(assets/img/motor_elec.jpg)"
-            </div>
+            ></div>
             <div class="card-body">
               <h5 class="card-title fw-bold">Eléctrico</h5>
               <p class="card-text">
@@ -168,10 +164,10 @@
         </div>
         <div class="col-12 col-sm-4 py-2">
           <div class="card">
-            <div class="image-top"
-            img src="assets/img/motor_elec.jpg" class="rounded mx-auto d-block" alt="...">
-            
-          </div>
+            <div
+              class="image-top h-50 "
+              style="background-image: url(assets/img/table-elec.jpg)"
+            ></div>
             <div class="card-body">
               <h5 class="card-title fw-bold">Eléctrico</h5>
               <p class="card-text">
@@ -189,10 +185,10 @@
           <div class="card">
             <div
               class="image-top"
-              style="background-image: url(assets/img/bus_red.jpg)"
+              style="background-image: url(assets/img/icono_bus.png)"
             ></div>
             <div class="card-body">
-              <h5 class="card-title fw-bold">Conductor transporte público</h5>
+              <h5 class="card-title fw-bold">Conductor Profesional</h5>
               <p class="card-text">
                 Conductor buses del tranporte público en los recorridos
                 alimentadores E01, E02, E04, E08, E09 y E14. Comunas de La
@@ -207,11 +203,14 @@
       </div>
     </section>
 
+    <!--Contacto-->
+
     <section id="Contacto" class="container my-5">
       <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
 
       <p class="text-center my-4 d-none d-md-block">
-        Si te interesa mi trabajo te invito a que me contactes par mayor información
+        Si te interesa mi trabajo te invito a que me contactes par mayor
+        información
       </p>
 
       <form>
